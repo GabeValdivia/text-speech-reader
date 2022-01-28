@@ -78,3 +78,6 @@ function createBox(item) {
 
 // Toggle text box
 toggleBtn.addEventListener('click', () => document.getElementById('text-box').classList.toggle('show'));
+
+// Toggle text box
+closeBtn.addEventListener('click', () => document.getElementById('text-box').classList.toggle('show'));
